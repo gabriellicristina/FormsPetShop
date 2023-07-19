@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário de Cadastro de Cachorros</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Formulário de Cadastro de Cachorros</h1>
+  
+  <form id="cadastroForm">
+    <label for="nomeCachorro">Nome do Cachorro:</label>
+    <input type="text" id="nomeCachorro" name="nomeCachorro" required><br>
+
+    <label for="nomeDono">Nome do Dono:</label>
+    <input type="text" id="nomeDono" name="nomeDono" required><br>
+
+    <label for="telefone">Telefone para Contato:</label>
+    <input type="text" id="telefone" name="telefone" required><br>
+
+    <label for="diaAgendamento">Dia do Agendamento:</label>
+    <input type="date" id="diaAgendamento" name="diaAgendamento" required><br>
+
+    <input type="submit" value="Cadastrar">
+  </form>
+
+  <h2>Lista de Cachorros Cadastrados:</h2>
+  <ul id="listaCachorros"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
